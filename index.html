@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- Consentimento (LGPD) — Google Consent Mode v2. Precisa vir ANTES do GTM,
+       senão as tags já disparam sem saber que o padrão é "negado". -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': 500
+    });
+  </script>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -782,8 +795,23 @@ Conte onde você está hoje, o que já construiu e o que pretende construir daqu
     </div>
   </div>
 
+  <!-- ============ CONSENTIMENTO DE COOKIES (LGPD) ============ -->
+  <div class="consent-banner" id="consentBanner" hidden>
+    <div class="consent-banner__inner">
+      <p class="consent-banner__text">
+        Usamos cookies para analisar o tráfego do site e melhorar sua experiência.
+        Saiba mais na nossa <a href="/privacidade.html">Política de Privacidade</a>.
+      </p>
+      <div class="consent-banner__actions">
+        <button type="button" class="consent-banner__btn consent-banner__btn--reject" id="consentReject">Rejeitar</button>
+        <button type="button" class="consent-banner__btn consent-banner__btn--accept" id="consentAccept">Aceitar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- camada de tracking (dataLayer) — sem tags de plataforma configuradas ainda -->
   <script type="module" src="/src/v3/tracking.js"></script>
+  <script type="module" src="/src/v3/consent-v3.js"></script>
 
   <!-- reutiliza o motor visual da V1 -->
   <script type="module" src="/src/main.js"></script>
