@@ -1,0 +1,12 @@
+node_modules
+dist
+.env
+.env.*
+!.env.example
+
+# capturas de debug do plugin frame-saver (vite.config.js) — não é parte do site
+frames
+
+# página de referência salva (lobod.rocks), sem relação com o projeto
+LOBOD.html
+LOBOD_files

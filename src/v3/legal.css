@@ -1,0 +1,65 @@
+:root {
+  --navy: #0a1a2f;
+  --navy-2: #0f2742;
+  --gold: #c9a24b;
+  --gold-light: #e0c074;
+  --paper: #f2eee6;
+  --muted: #8a94a3;
+  --line: rgba(255, 255, 255, 0.1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--navy); color: var(--paper);
+  font-family: "Inter", system-ui, sans-serif; line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--gold); }
+
+.legal-top {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 22px clamp(20px, 5vw, 56px); border-bottom: 0.5px solid var(--line);
+}
+.legal-brand { display: flex; flex-direction: column; text-decoration: none; }
+.legal-brand__name {
+  font-family: "Playfair Display", serif; font-weight: 700; font-size: 20px;
+  letter-spacing: 1px; color: var(--paper);
+}
+.legal-brand__tag {
+  font-size: 9px; letter-spacing: 2.6px; text-transform: uppercase;
+  color: var(--gold); margin-top: 4px;
+}
+.legal-back {
+  font-size: 12px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase;
+  text-decoration: none; color: var(--paper); transition: color .25s ease;
+}
+.legal-back:hover { color: var(--gold); }
+
+.legal-wrap {
+  max-width: 760px; margin: 0 auto;
+  padding: clamp(48px, 8vw, 88px) clamp(20px, 5vw, 40px) clamp(60px, 8vw, 100px);
+}
+.legal-eyebrow {
+  font-size: 11px; font-weight: 700; letter-spacing: 2.8px; text-transform: uppercase;
+  color: var(--gold); display: block; margin-bottom: 16px;
+}
+.legal-title {
+  font-family: "Playfair Display", serif; font-weight: 700;
+  font-size: clamp(30px, 5vw, 46px); line-height: 1.1; letter-spacing: -0.5px;
+  margin-bottom: 12px;
+}
+.legal-updated { font-size: 13px; color: var(--muted); margin-bottom: 44px; }
+
+.legal-wrap h2 {
+  font-family: "Playfair Display", serif; font-weight: 700;
+  font-size: clamp(20px, 2.6vw, 26px); line-height: 1.2;
+  margin: 40px 0 14px; color: var(--paper);
+}
+.legal-wrap p { font-size: 15.5px; color: #cdd6e2; margin-bottom: 16px; }
+.legal-wrap ul { margin: 0 0 16px 20px; }
+.legal-wrap li { font-size: 15.5px; color: #cdd6e2; margin-bottom: 8px; }
+.legal-wrap strong { color: var(--paper); font-weight: 600; }
+
+.legal-footer {
+  border-top: 0.5px solid var(--line); padding: 30px clamp(20px, 5vw, 56px);
+  font-size: 12px; color: var(--muted); text-align: center; line-height: 1.7;
+}

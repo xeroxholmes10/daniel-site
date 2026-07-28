@@ -1,0 +1,18 @@
+{
+  "name": "daniel-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch:market": "node --env-file=.env scripts/fetch-market.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
+  }
+}

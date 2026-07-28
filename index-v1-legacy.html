@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Magalhães — Assessor de Investimentos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div class="hero-wrap">
+    <div id="particle-stage"></div>
+
+    <header class="nav">
+      <div class="nav__left">
+        <div class="brand">
+          <div class="brand__logo">DM</div>
+          <div class="brand__tag">Assessor de investimentos</div>
+        </div>
+        <span class="nav__divider" aria-hidden="true"></span>
+        <div class="partner-badge">
+          <span class="partner-badge__label">Escritório parceiro</span>
+          <img class="partner-badge__logo" src="/logo_valor_xp.jpg" alt="Valor Investimentos · XP" />
+        </div>
+      </div>
+      <nav class="nav__links">
+        <a href="#experiencia">Experiência</a>
+        <a href="#ajudo">Como ajudo</a>
+        <a href="#metodo">Método</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main class="hero" data-nav="Experiência">
+    <div class="hero__text">
+      <h1 class="hero__title">
+        Patrimônio que <em>se constrói</em> com disciplina.
+      </h1>
+      <p class="hero__sub">
+        Engenheiro de formação, investimentos por paixão. Planejo, acompanho
+        e ajusto sua carteira — e fico até o resultado aparecer.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--solid" href="https://wa.me/5531987058815" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn--ghost" href="#metodo">Ver como funciona</a>
+      </div>
+      <div class="hero__social">
+        <a href="https://www.linkedin.com/in/danielmaagalhaes/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/assessor.danielmagalhaes/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+
+    </main>
+  </div>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">A experiência por trás</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 01</span>
+  </div>
+
+  <!-- ============ 02 — SOBRE DANIEL ============ -->
+  <section class="about" id="sobre" data-nav="Daniel">
+    <div class="about__media reveal reveal--left">
+      <div class="about__frame">
+        <img class="about__photo" src="/daniel-sobre.jpg" alt="Daniel Magalhães" />
+        <div class="about__ph">
+          Salve a foto em<br /><b>public/daniel-sobre.jpg</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__text">
+      <span class="about__eyebrow reveal">Sobre Daniel</span>
+      <h2 class="about__title reveal">
+        Investimentos, para mim, começam <em>antes</em> do investimento.
+      </h2>
+      <div class="about__body reveal">
+        <p>
+          Minha formação em Engenharia me ensinou a olhar para problemas
+          complexos, analisar cenários e tomar decisões com método.
+        </p>
+        <p>
+          No mercado financeiro, encontrei uma forma de aplicar essa mentalidade
+          em algo que impacta diretamente a vida das pessoas: a construção do
+          patrimônio.
+        </p>
+        <p>
+          Meu trabalho é entender o momento de cada cliente, seus objetivos e o
+          contexto por trás das suas decisões.
+        </p>
+      </div>
+      <a class="about__cta reveal" href="#sobre">Conheça Daniel →</a>
+    </div>
+  </section>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">Mercado em movimento</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 02</span>
+  </div>
+
+  <!-- ============ 03 — MERCADO EM MOVIMENTO (ticker) ============ -->
+  <section class="market" id="mercado" data-nav="Mercado">
+    <div class="market__head reveal">
+      <span class="market__eyebrow">Mercado em movimento</span>
+      <h2 class="market__title">Enquanto você está aqui, o mercado continua se movendo.</h2>
+    </div>
+
+    <div class="ticker" aria-label="Cotações ao vivo">
+      <span class="ticker__tag">Carregando cotações…</span>
+      <div class="ticker__viewport">
+        <div class="ticker__track" id="tickerTrack"><!-- filled by ticker.js --></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">Como Daniel trabalha</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 03</span>
+  </div>
+
+  <!-- ============ 04 — COMO DANIEL TRABALHA ============ -->
+  <section class="process" id="metodo" data-nav="Método">
+    <div class="process__head">
+      <span class="eyebrow reveal">Como Daniel trabalha</span>
+      <h2 class="process__title reveal">Não existe uma carteira certa para todo mundo.</h2>
+    </div>
+
+    <ol class="process__flow">
+      <li class="process__step reveal">
+        <span class="process__num">01</span>
+        <h3 class="process__step-title">Entender</h3>
+        <p class="process__step-text">Seu momento. Seus objetivos. Sua realidade.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">02</span>
+        <h3 class="process__step-title">Planejar</h3>
+        <p class="process__step-text">Uma estratégia coerente com o caminho que você quer construir.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">03</span>
+        <h3 class="process__step-title">Investir</h3>
+        <p class="process__step-text">Decisões alinhadas ao plano — e não ao ruído do mercado.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">04</span>
+        <h3 class="process__step-title">Acompanhar</h3>
+        <p class="process__step-text">Revisão e acompanhamento conforme os cenários mudam.</p>
+      </li>
+    </ol>
+  </section>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">Para quem é</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 04</span>
+  </div>
+
+  <!-- ============ 05 — PARA QUEM É ============ -->
+  <section class="audience" id="para-quem" data-nav="Para quem">
+    <div class="audience__head">
+      <span class="eyebrow reveal">Para quem é</span>
+      <h2 class="audience__title reveal">Talvez você esteja em um destes momentos.</h2>
+    </div>
+
+    <div class="audience__panels">
+      <a class="audience__panel reveal" href="#contato" data-target="/executivos">
+        <span class="audience__num">01</span>
+        <h3 class="audience__panel-title">Executivo</h3>
+        <p class="audience__panel-text">
+          Minha carreira avançou. Minha renda aumentou, mas quero organizar
+          melhor o patrimônio que estou construindo.
+        </p>
+        <span class="audience__more">Ver caminho →</span>
+      </a>
+
+      <a class="audience__panel reveal" href="#contato" data-target="/profissionais-liberais">
+        <span class="audience__num">02</span>
+        <h3 class="audience__panel-title">Profissional liberal</h3>
+        <p class="audience__panel-text">
+          Minha renda é alta. Mas sinto que meu patrimônio poderia estar
+          crescendo de uma forma mais estruturada.
+        </p>
+        <span class="audience__more">Ver caminho →</span>
+      </a>
+
+      <a class="audience__panel reveal" href="#contato" data-target="/servidores-publicos">
+        <span class="audience__num">03</span>
+        <h3 class="audience__panel-title">Servidor público sênior</h3>
+        <p class="audience__panel-text">
+          Já construí uma boa base. Agora quero pensar melhor sobre renda,
+          futuro e preservação patrimonial.
+        </p>
+        <span class="audience__more">Ver caminho →</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">O que estou acompanhando</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 05</span>
+  </div>
+
+  <!-- ============ 06 — INSIGHTS ============ -->
+  <section class="insights" id="insights" data-nav="Insights">
+    <div class="insights__head">
+      <div class="reveal">
+        <span class="eyebrow">Insights</span>
+        <h2 class="insights__title">O que estou acompanhando.</h2>
+        <p class="insights__sub">Notícias, análises e ideias sobre investimentos e patrimônio.</p>
+      </div>
+      <a class="insights__all reveal" href="#insights">Ver todos os insights →</a>
+    </div>
+
+    <div class="insights__grid">
+      <!-- featured -->
+      <a class="insight insight--feature reveal" href="#insights">
+        <div class="insight__media" data-cat="Mercados"></div>
+        <div class="insight__body">
+          <div class="insight__meta">
+            <span class="insight__cat">Mercados</span>
+            <span class="insight__date">22 jul 2026 · 6 min</span>
+          </div>
+          <h3 class="insight__title">O que os juros altos significam para a sua carteira em 2026</h3>
+          <p class="insight__summary">
+            Um cenário de juros elevados muda o jogo entre renda fixa e variável.
+            Como pensar a alocação sem reagir ao ruído de curto prazo.
+          </p>
+          <span class="insight__cta">Ler artigo →</span>
+        </div>
+      </a>
+
+      <!-- secondary -->
+      <div class="insights__col">
+        <a class="insight reveal" href="#insights">
+          <div class="insight__media insight__media--sm" data-cat="Patrimônio"></div>
+          <div class="insight__body">
+            <div class="insight__meta">
+              <span class="insight__cat">Patrimônio</span>
+              <span class="insight__date">18 jul 2026 · 4 min</span>
+            </div>
+            <h3 class="insight__title">Reserva de emergência: quanto é o suficiente?</h3>
+            <span class="insight__cta">Ler mais →</span>
+          </div>
+        </a>
+
+        <a class="insight reveal" href="#insights">
+          <div class="insight__media insight__media--sm" data-cat="Planejamento"></div>
+          <div class="insight__body">
+            <div class="insight__meta">
+              <span class="insight__cat">Planejamento</span>
+              <span class="insight__date">11 jul 2026 · 5 min</span>
+            </div>
+            <h3 class="insight__title">O custo invisível de adiar decisões de investimento</h3>
+            <span class="insight__cta">Ler mais →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">Daniel em ação</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 06</span>
+  </div>
+
+  <!-- ============ 07 — DANIEL EM AÇÃO ============ -->
+  <section class="action" id="acompanhamento" data-nav="Acompanhamento">
+    <div class="action__media">
+      <img class="action__photo" src="/daniel-acao.jpg" alt="Daniel acompanhando o mercado" />
+      <div class="action__ph">Salve a foto em <b>public/daniel-acao.jpg</b></div>
+    </div>
+    <div class="action__scrim"></div>
+    <div class="action__content reveal">
+      <span class="eyebrow">Daniel em ação</span>
+      <h2 class="action__title">O mercado não para.</h2>
+      <p class="action__text">
+        Acompanhar o cenário, revisar decisões e manter a estratégia coerente
+        com o momento faz parte do processo.
+      </p>
+    </div>
+  </section>
+
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">Vamos conversar</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ 07</span>
+  </div>
+
+  <!-- ============ 08 — CTA FINAL ============ -->
+  <section class="cta" id="contato" data-nav="Contato">
+    <div class="cta__specks" aria-hidden="true"></div>
+    <div class="cta__inner reveal">
+      <span class="eyebrow">Contato</span>
+      <h2 class="cta__title">Vamos conversar?</h2>
+      <p class="cta__text">
+        Se você está pensando em organizar melhor seus investimentos e entender
+        os próximos passos para o seu patrimônio, podemos começar por uma conversa.
+      </p>
+      <a class="btn btn--solid cta__btn" href="https://wa.me/5531987058815" target="_blank" rel="noopener">Falar com Daniel</a>
+      <span class="cta__micro">Atendimento inicial pelo WhatsApp.</span>
+      <div class="cta__links">
+        <a class="cta__email" href="mailto:daniel.magalhaes@valorinvestimentos.com.br">ou por e-mail: daniel.magalhaes@valorinvestimentos.com.br</a>
+        <a class="cta__community" href="https://chat.whatsapp.com/Eh3DqDMEnx46e9bk8sbtSD" target="_blank" rel="noopener">Entrar na comunidade no WhatsApp →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09 — FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">Daniel Magalhães</div>
+        <div class="footer__tag">Assessoria de investimentos</div>
+      </div>
+      <div class="footer__cols">
+        <nav class="footer__col">
+          <span class="footer__col-title">Navegação</span>
+          <a href="#sobre">Sobre</a>
+          <a href="#metodo">Como trabalho</a>
+          <a href="#insights">Insights</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <nav class="footer__col">
+          <span class="footer__col-title">Redes</span>
+          <a href="https://www.instagram.com/assessor.danielmagalhaes/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/in/danielmaagalhaes/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://wa.me/5531987058815" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://chat.whatsapp.com/Eh3DqDMEnx46e9bk8sbtSD" target="_blank" rel="noopener">Comunidade</a>
+        </nav>
+      </div>
+    </div>
+
+    <p class="footer__disclaimer">
+      Espaço reservado para informações profissionais e regulatórias
+      (registro, certificações e avisos obrigatórios) — a preencher.
+    </p>
+
+    <div class="footer__bottom">
+      <span>© <span id="yr"></span> Daniel Magalhães</span>
+      <div class="footer__legal">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ persistent section-nav (present on every block) ============ -->
+  <nav class="section-nav" id="sectionNav" aria-label="Navegação de seções"></nav>
+
+  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/reveal.js"></script>
+  <script type="module" src="/src/ticker.js"></script>
+  <script type="module" src="/src/section-nav.js"></script>
+</body>
+</html>
