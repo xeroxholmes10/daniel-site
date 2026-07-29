@@ -46,8 +46,9 @@ body {
 .brand__logo {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 24px;
-  letter-spacing: 7px;
+  font-size: 29px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 .brand__tag {
   font-size: 9.5px;
@@ -873,6 +874,12 @@ body {
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 1px;
+}
+.footer__partner-logo {
+  height: 26px;
+  width: auto;
+  display: block;
+  margin-top: 12px;
 }
 .footer__tag {
   font-size: 10px;
