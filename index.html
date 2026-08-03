@@ -13,6 +13,10 @@
       'ad_personalization': 'denied',
       'wait_for_update': 500
     });
+    /* Sem cookie de anúncio (ad_storage negado), o gclid morre na primeira
+       navegação e o Google Ads perde o vínculo clique -> conversão. Com isto,
+       o gclid é repassado pela própria URL. Não grava nada no navegador. */
+    gtag('set', 'url_passthrough', true);
   </script>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -799,8 +803,9 @@ Conte onde você está hoje, o que já construiu e o que pretende construir daqu
   <div class="consent-banner" id="consentBanner" hidden>
     <div class="consent-banner__inner">
       <p class="consent-banner__text">
-        Usamos cookies para analisar o tráfego do site e melhorar sua experiência.
-        Saiba mais na nossa <a href="/privacidade.html">Política de Privacidade</a>.
+        Usamos cookies para entender de onde vêm as visitas e melhorar este site.
+        Inclui Google Analytics e Google Ads.
+        <a href="/privacidade.html">Política de Privacidade</a>.
       </p>
       <div class="consent-banner__actions">
         <button type="button" class="consent-banner__btn consent-banner__btn--reject" id="consentReject">Rejeitar</button>

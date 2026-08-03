@@ -7,6 +7,9 @@ dist
 # capturas de debug do plugin frame-saver (vite.config.js) — não é parte do site
 frames
 
+# config local de ferramenta de dev (launch.json do preview), não é parte do site
+.claude
+
 # página de referência salva (lobod.rocks), sem relação com o projeto
 LOBOD.html
 LOBOD_files
