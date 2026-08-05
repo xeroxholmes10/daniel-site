@@ -30,6 +30,9 @@
   <title>Assessor de Investimentos e Planejamento Patrimonial | Daniel Magalhães</title>
   <meta name="description" content="Assessoria de investimentos com foco em planejamento financeiro e gestão patrimonial. Estratégia e acompanhamento de longo prazo para transformar renda em patrimônio sólido." />
   <meta name="theme-color" content="#0a1a2f" />
+  <!-- variante de teste A/B — fora do índice do Google, canonical aponta pra página real -->
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://daniel-site-seven.vercel.app/" />
 
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="pt_BR" />
@@ -143,7 +146,7 @@
   }
   </script>
 </head>
-<body class="v3">
+<body class="v3" data-experiment-name="search_intent_landing" data-experiment-variant="B">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6WFBM6S"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -193,19 +196,18 @@
 
     <main class="hero">
       <div class="hero__text">
-        <span class="hero__eyebrow">Assessoria de Investimentos • Planejamento Patrimonial</span>
+        <span class="hero__eyebrow">Planejamento Financeiro • Estratégia Patrimonial</span>
         <h1 class="hero__title">
-          Seu patrimônio cresceu.<br />
-          Sua <em>estratégia</em> também precisa crescer.
+          Você sabe quanto patrimônio precisa acumular para
+          <em>viver da renda</em> que deseja?
         </h1>
         <p class="hero__sub">
-          Assessoria de investimentos para quem alcançou uma alta renda ou está
-          no caminho para isso, acumulou patrimônio e agora quer planejar as
-          próximas decisões com clareza, estratégia e visão de longo prazo.
+          Responda em poucos segundos e descubra uma estimativa personalizada.
+          É o primeiro passo para transformar seu objetivo em um plano real.
         </p>
         <div class="hero__cta">
           <a class="btn btn--solid" data-section="hero" href="https://wa.me/5531987058815?text=Ol%C3%A1%20Daniel%2C%20quero%20organizar%20minha%20estrat%C3%A9gia%20de%20investimentos.%20Podemos%20conversar%3F" target="_blank" rel="noopener">Quero conversar</a>
-          <a class="btn btn--ghost" href="#metodo">Conheca o meu trabalho</a>
+          <a class="btn btn--ghost" href="#calculadora">Calcular meu patrimônio ↓</a>
         </div>
         <div class="hero__social">
           <a href="https://www.linkedin.com/in/danielmaagalhaes/" target="_blank" rel="noopener">LinkedIn</a>
@@ -214,6 +216,77 @@
       </div>
     </main>
   </div>
+
+  <!-- marker -->
+  <div class="section-marker">
+    <span class="section-marker__name">Daniel Magalhães</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__label">Calculadora</span>
+    <span class="section-marker__line"></span>
+    <span class="section-marker__num">✳ B</span>
+  </div>
+
+  <!-- ============ CALCULADORA (só na Variante B) ============ -->
+  <section class="calc section--paper" id="calculadora" data-nav="Calculadora">
+    <div class="calc__inner">
+      <div class="calc__grid">
+        <div class="calc__left">
+          <span class="eyebrow eyebrow--dark reveal">Antes de qualquer estratégia</span>
+          <h2 class="calc__title reveal">
+            Quanto patrimônio você precisa construir para <em>viver da renda</em> que quer?
+          </h2>
+          <p class="subgold reveal">Responda 4 perguntas simples.</p>
+
+          <form class="calc__form reveal" id="calcForm">
+            <div class="calc__field">
+              <label for="calcRenda">Renda mensal desejada (em R$ de hoje)</label>
+              <input id="calcRenda" name="renda" type="number" inputmode="decimal" placeholder="R$ 10.000" required min="0" step="any" />
+            </div>
+            <div class="calc__field">
+              <label for="calcIdadeAtual">Idade atual</label>
+              <input id="calcIdadeAtual" name="idadeAtual" type="number" inputmode="numeric" placeholder="35" required min="0" step="1" />
+            </div>
+            <div class="calc__field">
+              <label for="calcPatrimonioAtual">Quanto você já tem investido</label>
+              <input id="calcPatrimonioAtual" name="patrimonioAtual" type="number" inputmode="decimal" placeholder="R$ 0" min="0" step="any" />
+            </div>
+            <div class="calc__field">
+              <label for="calcAporte">Quanto consegue investir por mês</label>
+              <input id="calcAporte" name="aporte" type="number" inputmode="decimal" placeholder="R$ 1.000" min="0" step="any" />
+            </div>
+            <div class="calc__field">
+              <label for="calcTaxa">Rentabilidade nominal esperada (% a.m.)</label>
+              <input id="calcTaxa" name="taxa" type="number" inputmode="decimal" placeholder="1" required min="0.01" step="any" />
+            </div>
+            <button class="btn btn--solid calc__submit" type="submit">Calcular meu patrimônio necessário</button>
+          </form>
+        </div>
+
+        <div class="calc__result" id="calcResult" aria-live="polite">
+          <div class="calc__result-panel">
+            <span class="eyebrow">O seu número</span>
+            <p class="calc__result-punch">Patrimônio estimado: <em id="calcResultVal">R$ —</em></p>
+            <p class="calc__result-note" id="calcResultNote">Preencha os campos ao lado pra descobrir o seu número.</p>
+            <p class="calc__result-note calc__result-note--nominal" id="calcResultNominal"></p>
+            <p class="calc__disclaimer">
+              Projeção hipotética a partir dos valores informados por você —
+              não é promessa nem recomendação de rentabilidade. Rentabilidade
+              passada ou simulada não garante resultado futuro. Cálculo em
+              termos reais (poder de compra de hoje), descontada uma inflação
+              projetada de 4,5% a.a.
+            </p>
+          </div>
+
+          <p class="calc__transition">
+            Descobrir esse número é só o primeiro passo.<br />
+            Transformá-lo em realidade exige estratégia.<br />
+            É exatamente aqui que começa o meu trabalho.
+          </p>
+          <span class="calc__arrow" aria-hidden="true">↓</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- marker -->
   <div class="section-marker">
@@ -236,7 +309,7 @@
     <div class="about__text">
       <span class="about__eyebrow reveal">Prazer, sou <em>Daniel Magalhães</em></span>
       <h2 class="about__title reveal">
-        Meu trabalho começa <em>antes</em> da escolha de qualquer investimento.
+        Meu trabalho começa <em>quando você já sabe</em> onde quer chegar.
       </h2>
       <div class="about__body reveal">
         <p>Investir bem não começa com a escolha de um produto.</p>
@@ -245,7 +318,7 @@
           fazer daqui para frente.
         </p>
         <p>
-          Como <em>assessor de investimentos</em>, meu papel é ajudar você a
+          O meu papel é ajudar você a
           organizar essas decisões com uma visão mais ampla, considerando seu
           momento, seus objetivos, seu patrimônio e o nível de risco que faz
           sentido para você.
@@ -837,6 +910,7 @@ Conte onde você está hoje, o que já construiu e o que pretende construir daqu
   <script type="module" src="/src/v3/market-v3.js"></script>
   <script type="module" src="/src/v3/popup-v3.js"></script>
   <script type="module" src="/src/v3/puzzle-v3.js"></script>
+  <script type="module" src="/src/v3/calculator-v3.js"></script>
 
   <!-- rede de segurança: se os módulos demorarem/falharem (tunnel lento),
        ou a aba ficar oculta e travar a transição no meio do caminho,

@@ -579,7 +579,7 @@
 @media (max-width: 860px) {
   .bigidea__inner,
   .philo, .questions,
-  .faq__grid { padding-inline: 24px; }
+  .faq__grid, .calc__inner { padding-inline: 24px; }
   /* .benefits__head/.benefits__cards NÃO entram aqui: .benefits (seção-mãe) já
      tem padding-inline próprio (clamp 24-56px) — duplicar aqui dobrava o
      recuo lateral no mobile (media, medido: 48px em vez de 24px). */
@@ -630,12 +630,12 @@
 
 /* ---- GAP marker → conteúdo (menos vazio sem função) ---- */
 .section-marker { padding-block: 13px; }
-.about, .audience, .philo, .process, .benefits, .questions, .faq {
+.about, .audience, .philo, .process, .benefits, .questions, .faq, .calc {
   padding-top: clamp(26px, 3vw, 42px);
 }
 .bigidea { padding-top: clamp(32px, 4vw, 52px); }
 /* seções que terminam numa frase de fecho: só um respiro, sem vão embaixo */
-.bigidea, .philo, .benefits, .process { padding-bottom: clamp(28px, 3vw, 44px); }
+.bigidea, .philo, .benefits, .process, .calc { padding-bottom: clamp(28px, 3vw, 44px); }
 .philo__head { margin-bottom: clamp(30px, 3.5vw, 48px); }
 .benefits__head { margin-bottom: clamp(24px, 3vw, 40px); }
 
@@ -752,6 +752,21 @@
   .consent-banner__inner { flex-direction: column; align-items: stretch; }
   .consent-banner__actions { justify-content: stretch; }
   .consent-banner__btn { flex: 1 1 0; padding: 12px 16px; }
+}
+
+/* =========================================================
+   WHATSAPP FLUTUANTE — fixo, todas as páginas/variantes igual
+   (não faz parte da hipótese do teste, por isso não muda entre A/B)
+   ========================================================= */
+.wa-float {
+  position: fixed; right: clamp(16px, 3vw, 28px); bottom: clamp(16px, 3vw, 28px);
+  width: 46px; height: 46px; display: block; z-index: 240;
+  transition: transform 0.2s ease;
+}
+.wa-float img { display: block; width: 100%; height: 100%; }
+.wa-float:hover { transform: scale(1.06); }
+@media (max-width: 560px) {
+  .wa-float { width: 42px; height: 42px; right: 14px; bottom: 14px; }
 }
 
 /* =========================================================
@@ -1030,5 +1045,81 @@
 
   /* ---------- FOOTER ---------- */
   .footer__bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+}
+
+/* =========================================================
+   CALCULADORA (só na Variante B — experimento search_intent_landing)
+   ========================================================= */
+/* calculadora precisa de mais respiro horizontal que as seções de texto —
+   por isso um teto próprio, mais largo que var(--content) (1240px) */
+.calc { padding-top: clamp(0px, 0.4vw, 6px); }
+.calc__inner { max-width: 1680px; margin: 0 auto; padding-inline: clamp(40px, 4vw, 72px); }
+.calc__title {
+  font-family: "Playfair Display", serif; font-weight: 700;
+  font-size: clamp(32px, 4.2vw, 54px); line-height: 1.08; letter-spacing: -0.6px;
+  color: var(--ink); max-width: 18ch; margin-top: 10px;
+}
+.calc .subgold { font-size: clamp(18px, 1.9vw, 23px); color: var(--ink); }
+
+/* ---- esquerda (título+form) e resultado lado a lado — resultado centraliza
+   em relação à ALTURA TOTAL da esquerda, não só do form (gap generoso
+   empurra o resultado pra direita) ---- */
+.calc__grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: clamp(56px, 7vw, 110px);
+  align-items: center;
+}
+
+/* ---- formulário: campos direto no fundo, sem card ---- */
+.calc__form {
+  display: flex; flex-direction: column; gap: clamp(20px, 2.4vw, 26px);
+  margin-top: clamp(24px, 3vw, 36px);
+}
+.calc__field label {
+  display: block; font-size: 13.5px; font-weight: 600; color: var(--ink-soft);
+  margin-bottom: 7px; line-height: 1.35;
+}
+.calc__field input {
+  width: 100%; font-family: "Inter", sans-serif; font-size: 18px; color: var(--ink);
+  background: transparent; border: none; border-bottom: 1px solid rgba(20, 32, 46, 0.22);
+  border-radius: 0; padding: 8px 2px; transition: border-color 0.2s ease;
+}
+.calc__field input::placeholder { color: rgba(20, 32, 46, 0.32); }
+.calc__field input:focus { outline: none; border-color: #a8842f; }
+.calc__submit { margin-top: 6px; align-self: flex-start; cursor: pointer; }
+
+/* ---- resultado: painel navy, mesmo idioma visual do .perfil (Para quem é) ---- */
+.calc__result { padding-top: 6px; }
+.calc__result-panel {
+  background: var(--navy); position: relative; overflow: hidden;
+  padding: clamp(30px, 3.2vw, 44px) clamp(28px, 3vw, 40px);
+}
+.calc__result-panel::before {
+  content: ""; position: absolute; left: 0; top: 0; height: 2px; width: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+}
+.calc__result-panel .eyebrow { margin-bottom: 14px; }
+.calc__result-punch {
+  font-family: "Playfair Display", serif; font-weight: 600;
+  font-size: clamp(28px, 3.6vw, 44px); line-height: 1.2; color: var(--paper);
+}
+.calc__result-punch em { font-variant-numeric: tabular-nums; }
+.calc__result-note { font-size: 16.5px; line-height: 1.6; color: var(--paper-2); margin-top: 12px; max-width: 52ch; }
+.calc__result-note--nominal { font-size: 14px; font-style: italic; color: rgba(242, 238, 230, 0.55); margin-top: 7px; }
+.calc__disclaimer {
+  font-size: 12px; line-height: 1.55; color: rgba(242, 238, 230, 0.4);
+  margin-top: 18px; padding-top: 16px; border-top: 1px dashed rgba(242, 238, 230, 0.16);
+  max-width: 56ch;
+}
+
+/* ---- fecho: gera curiosidade pra próxima seção, sem CTA — segue logo
+   abaixo do patrimônio estimado, dentro da mesma coluna de resultado ---- */
+.calc__transition {
+  margin-top: clamp(28px, 3.2vw, 40px); font-family: "Playfair Display", serif; font-style: italic;
+  font-size: clamp(20px, 2.2vw, 25px); line-height: 1.42; color: var(--ink); max-width: 48ch;
+}
+.calc__arrow { display: block; margin-top: 14px; font-size: 20px; color: #a8842f; opacity: 0.8; }
+
+@media (max-width: 860px) {
+  .calc__grid { grid-template-columns: 1fr; gap: 30px; }
 }
 

@@ -17,10 +17,21 @@ const ATTRIBUTION_KEYS = [
   "msclkid",
 ];
 
+/* ---------- experimento A/B (opt-in via data-attribute no <body>) ---------- */
+function getExperimentPayload() {
+  const el = document.body;
+  const name = el?.dataset.experimentName;
+  if (!name) return {};
+  return {
+    experiment_name: name,
+    experiment_variant: el.dataset.experimentVariant || "A",
+  };
+}
+
 /* ---------- núcleo: push no dataLayer ---------- */
 export function trackEvent(eventName, params = {}) {
   window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({ event: eventName, ...params });
+  window.dataLayer.push({ event: eventName, ...getExperimentPayload(), ...params });
 }
 
 /* ---------- atribuição (UTMs + clicks ids) ---------- */
