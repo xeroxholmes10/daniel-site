@@ -1,353 +1,365 @@
 {
-  "updatedAt": "2026-10-05T19:27:25.744Z",
+  "updatedAt": "2026-10-06T17:00:18.046Z",
   "assets": [
     {
       "ticker": "PETR4",
       "name": "PETROLEO BRASILEIRO S.A. PETROBRAS",
-      "price": 56.36,
-      "changePercent": 10.14
+      "price": 54.04,
+      "changePercent": -2.38
     },
     {
       "ticker": "PETR3",
       "name": "PETROLEO BRASILEIRO S.A. PETROBRAS",
-      "price": 61.76,
-      "changePercent": 9.08
+      "price": 59.73,
+      "changePercent": -1.11
     },
     {
       "ticker": "ITUB4",
       "name": "ITAU UNIBANCO HOLDING S.A.",
-      "price": 50.18,
-      "changePercent": 11.93
+      "price": 50.34,
+      "changePercent": 1.74
     },
     {
       "ticker": "ITUB3",
       "name": "ITAU UNIBANCO HOLDING S.A.",
-      "price": 54.94,
-      "changePercent": 12.31
-    },
-    {
-      "ticker": "VALE3",
-      "name": "VALE S.A.",
-      "price": 71.87,
-      "changePercent": -0.32
+      "price": 54.79,
+      "changePercent": 1.24
     },
     {
       "ticker": "BPAC3",
       "name": "BCO BTG PACTUAL S.A.",
-      "price": 27.96,
-      "changePercent": 11.97
+      "price": 26.5,
+      "changePercent": -4.37
     },
     {
       "ticker": "BPAC5",
       "name": "BCO BTG PACTUAL S.A.",
-      "price": 27.3,
-      "changePercent": 30.06
+      "price": 25.51,
+      "changePercent": 0.79
+    },
+    {
+      "ticker": "VALE3",
+      "name": "VALE S.A.",
+      "price": 70.33,
+      "changePercent": -1.5
     },
     {
       "ticker": "ABEV3",
       "name": "AMBEV S.A.",
-      "price": 16.63,
-      "changePercent": 4.99
-    },
-    {
-      "ticker": "WEGE3",
-      "name": "WEG S.A.",
-      "price": 50.95,
+      "price": 16.34,
       "changePercent": -0.97
     },
     {
       "ticker": "BBDC4",
       "name": "BCO BRADESCO S.A.",
-      "price": 22.06,
-      "changePercent": 14.72
+      "price": 22.75,
+      "changePercent": 4.17
     },
     {
       "ticker": "BBDC3",
       "name": "BCO BRADESCO S.A.",
-      "price": 19.46,
-      "changePercent": 15.63
+      "price": 19.86,
+      "changePercent": 2.58
+    },
+    {
+      "ticker": "WEGE3",
+      "name": "WEG S.A.",
+      "price": 51.2,
+      "changePercent": -0.1
     },
     {
       "ticker": "ITSA4",
       "name": "ITAUSA S.A.",
-      "price": 16.37,
-      "changePercent": 11.59
+      "price": 16.36,
+      "changePercent": 0
     },
     {
       "ticker": "ITSA3",
       "name": "ITAUSA S.A.",
-      "price": 16.35,
-      "changePercent": 10.55
+      "price": 16.26,
+      "changePercent": 0.87
     },
     {
       "ticker": "BBAS3",
       "name": "BCO BRASIL S.A.",
-      "price": 26.78,
-      "changePercent": 12.9
+      "price": 24.76,
+      "changePercent": -5.96
     },
     {
       "ticker": "AXIA3",
       "name": "AXIA ENERGIA S.A.",
-      "price": 61.56,
-      "changePercent": 8.19
+      "price": 59.74,
+      "changePercent": -2.67
     },
     {
       "ticker": "AXIA7",
       "name": "AXIA ENERGIA S.A.",
-      "price": 61.82,
-      "changePercent": 9.05
-    },
-    {
-      "ticker": "SANB4",
-      "name": "BCO SANTANDER (BRASIL) S.A.",
-      "price": 14.29,
-      "changePercent": 2.29
-    },
-    {
-      "ticker": "SANB3",
-      "name": "BCO SANTANDER (BRASIL) S.A.",
-      "price": 14.45,
-      "changePercent": 2.05
-    },
-    {
-      "ticker": "SBSP3",
-      "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
-      "price": 31.93,
-      "changePercent": 13.11
-    },
-    {
-      "ticker": "VIVT3",
-      "name": "TELEFÔNICA BRASIL S.A",
-      "price": 32.12,
-      "changePercent": 6.57
+      "price": 60.01,
+      "changePercent": -2.93
     },
     {
       "ticker": "B3SA3",
       "name": "B3 S.A. - BRASIL. BOLSA. BALCÃO",
-      "price": 23.64,
-      "changePercent": 24.42
+      "price": 22.6,
+      "changePercent": -3
+    },
+    {
+      "ticker": "SBSP3",
+      "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+      "price": 31.91,
+      "changePercent": 1.3
+    },
+    {
+      "ticker": "SANB4",
+      "name": "BCO SANTANDER (BRASIL) S.A.",
+      "price": 14.53,
+      "changePercent": 1.96
+    },
+    {
+      "ticker": "SANB3",
+      "name": "BCO SANTANDER (BRASIL) S.A.",
+      "price": 14.71,
+      "changePercent": 1.8
+    },
+    {
+      "ticker": "VIVT3",
+      "name": "TELEFÔNICA BRASIL S.A",
+      "price": 31.47,
+      "changePercent": -1.13
     },
     {
       "ticker": "RDOR3",
       "name": "REDE DOR SÃO LUIZ S.A.",
-      "price": 44.36,
-      "changePercent": 11.4
+      "price": 44.66,
+      "changePercent": 2.13
     },
     {
       "ticker": "BBSE3",
       "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-      "price": 41.34,
-      "changePercent": 2.2
+      "price": 40.1,
+      "changePercent": -2.17
     },
     {
       "ticker": "EMBJ3",
       "name": "EMBRAER S.A.",
-      "price": 94.43,
-      "changePercent": -3.89
+      "price": 94.21,
+      "changePercent": -0.83
     },
     {
       "ticker": "CXSE3",
       "name": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A.",
-      "price": 20.53,
-      "changePercent": 0.59
-    },
-    {
-      "ticker": "SUZB3",
-      "name": "SUZANO S.A.",
-      "price": 42.07,
-      "changePercent": -5.14
-    },
-    {
-      "ticker": "CPFE3",
-      "name": "CPFL ENERGIA S.A.",
-      "price": 50.64,
-      "changePercent": 5.3
-    },
-    {
-      "ticker": "ENEV3",
-      "name": "ENEVA S.A",
-      "price": 30.65,
-      "changePercent": 6.76
-    },
-    {
-      "ticker": "PRIO3",
-      "name": "PRIO S.A.",
-      "price": 64.46,
-      "changePercent": 2.3
+      "price": 20.7,
+      "changePercent": 0.39
     },
     {
       "ticker": "EQTL3",
       "name": "EQUATORIAL S.A.",
-      "price": 48.27,
-      "changePercent": 15.18
-    },
-    {
-      "ticker": "CPLE3",
-      "name": "CIA PARANAENSE DE ENERGIA - COPEL",
-      "price": 17.4,
-      "changePercent": 4.76
-    },
-    {
-      "ticker": "GGBR4",
-      "name": "GERDAU S.A.",
-      "price": 26.21,
-      "changePercent": 0.42
-    },
-    {
-      "ticker": "GGBR3",
-      "name": "GERDAU S.A.",
-      "price": 22.62,
+      "price": 47.81,
       "changePercent": 0.31
+    },
+    {
+      "ticker": "ENEV3",
+      "name": "ENEVA S.A",
+      "price": 30.1,
+      "changePercent": -0.53
+    },
+    {
+      "ticker": "CPFE3",
+      "name": "CPFL ENERGIA S.A.",
+      "price": 49.57,
+      "changePercent": -0.94
     },
     {
       "ticker": "RENT3",
       "name": "LOCALIZA RENT A CAR S.A.",
-      "price": 50.51,
-      "changePercent": 21.77
+      "price": 49.88,
+      "changePercent": -0.36
     },
     {
       "ticker": "RENT4",
       "name": "LOCALIZA RENT A CAR S.A.",
-      "price": 49.45,
-      "changePercent": 20.76
+      "price": 48.75,
+      "changePercent": 0.06
+    },
+    {
+      "ticker": "PRIO3",
+      "name": "PRIO S.A.",
+      "price": 62.96,
+      "changePercent": -1.86
+    },
+    {
+      "ticker": "SUZB3",
+      "name": "SUZANO S.A.",
+      "price": 41.97,
+      "changePercent": 0.02
+    },
+    {
+      "ticker": "CPLE3",
+      "name": "CIA PARANAENSE DE ENERGIA - COPEL",
+      "price": 17.23,
+      "changePercent": -0.12
+    },
+    {
+      "ticker": "GGBR4",
+      "name": "GERDAU S.A.",
+      "price": 25.58,
+      "changePercent": -0.81
+    },
+    {
+      "ticker": "GGBR3",
+      "name": "GERDAU S.A.",
+      "price": 22.1,
+      "changePercent": -1.52
     },
     {
       "ticker": "TIMS3",
       "name": "TIM S.A.",
-      "price": 19.51,
-      "changePercent": 5.18
-    },
-    {
-      "ticker": "VBBR3",
-      "name": "VIBRA ENERGIA S.A.",
-      "price": 38.86,
-      "changePercent": 1.86
-    },
-    {
-      "ticker": "EGIE3",
-      "name": "ENGIE BRASIL ENERGIA S.A.",
-      "price": 32.09,
-      "changePercent": 4.53
-    },
-    {
-      "ticker": "UGPA3",
-      "name": "ULTRAPAR PARTICIPACOES S.A.",
-      "price": 39.18,
-      "changePercent": 1.48
+      "price": 19.04,
+      "changePercent": -1.19
     },
     {
       "ticker": "SAUD3",
       "name": "BRADSAUDE S.A.",
-      "price": 15.49,
-      "changePercent": 10.49
+      "price": 15.77,
+      "changePercent": 2.74
+    },
+    {
+      "ticker": "EGIE3",
+      "name": "ENGIE BRASIL ENERGIA S.A.",
+      "price": 31.49,
+      "changePercent": -0.47
+    },
+    {
+      "ticker": "VBBR3",
+      "name": "VIBRA ENERGIA S.A.",
+      "price": 37.92,
+      "changePercent": -1.12
+    },
+    {
+      "ticker": "UGPA3",
+      "name": "ULTRAPAR PARTICIPACOES S.A.",
+      "price": 38.62,
+      "changePercent": -1.1
     },
     {
       "ticker": "CMIG4",
       "name": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-      "price": 12.13,
-      "changePercent": 6.31
+      "price": 11.99,
+      "changePercent": 0.08
     },
     {
       "ticker": "CMIG3",
       "name": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-      "price": 18.16,
-      "changePercent": 5.7
+      "price": 17.96,
+      "changePercent": 0
     },
     {
       "ticker": "MOTV3",
       "name": "MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A.",
-      "price": 19.7,
-      "changePercent": 12.64
+      "price": 19.63,
+      "changePercent": 1.55
     },
     {
       "ticker": "RADL3",
       "name": "RAIA DROGASIL S.A.",
-      "price": 21.39,
-      "changePercent": 9.69
-    },
-    {
-      "ticker": "PSSA3",
-      "name": "PORTO SEGURO S.A.",
-      "price": 51.66,
-      "changePercent": 4.43
+      "price": 21.53,
+      "changePercent": 1.13
     },
     {
       "ticker": "RAIL3",
       "name": "RUMO S.A.",
-      "price": 19.22,
-      "changePercent": 13.86
+      "price": 18.36,
+      "changePercent": -2.96
+    },
+    {
+      "ticker": "PSSA3",
+      "name": "PORTO SEGURO S.A.",
+      "price": 52.92,
+      "changePercent": 2.68
     },
     {
       "ticker": "CMIN3",
       "name": "CSN MINERAÇÃO S.A.",
-      "price": 5.07,
-      "changePercent": 2.01
+      "price": 4.96,
+      "changePercent": -1.59
     },
     {
       "ticker": "MBRF3",
       "name": "BRF S.A.",
-      "price": 18.05,
-      "changePercent": 6.3
-    },
-    {
-      "ticker": "KLBN4",
-      "name": "KLABIN S.A.",
-      "price": 3.67,
-      "changePercent": -0.54
-    },
-    {
-      "ticker": "KLBN3",
-      "name": "KLABIN S.A.",
-      "price": 3.77,
-      "changePercent": -0.79
-    },
-    {
-      "ticker": "CSMG3",
-      "name": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
-      "price": 61.84,
-      "changePercent": 9.94
+      "price": 17.95,
+      "changePercent": 0.9
     },
     {
       "ticker": "ENGI4",
       "name": "ENERGISA S.A.",
-      "price": 12.61,
-      "changePercent": 18.18
+      "price": 12.78,
+      "changePercent": 1.91
     },
     {
       "ticker": "ENGI3",
       "name": "ENERGISA S.A.",
-      "price": 13.4,
-      "changePercent": 4.28
+      "price": 13.46,
+      "changePercent": 1.74
+    },
+    {
+      "ticker": "CSMG3",
+      "name": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
+      "price": 62.05,
+      "changePercent": 1.67
+    },
+    {
+      "ticker": "KLBN4",
+      "name": "KLABIN S.A.",
+      "price": 3.69,
+      "changePercent": 0.27
+    },
+    {
+      "ticker": "KLBN3",
+      "name": "KLABIN S.A.",
+      "price": 3.8,
+      "changePercent": 0.53
     },
     {
       "ticker": "ISAE4",
       "name": "ISA ENERGIA BRASIL S.A",
-      "price": 29.44,
-      "changePercent": 4.43
+      "price": 29.34,
+      "changePercent": 0.14
     },
     {
       "ticker": "ISAE3",
       "name": "ISA ENERGIA BRASIL S.A",
-      "price": 36,
-      "changePercent": 7.49
+      "price": 35.99,
+      "changePercent": 0
     },
     {
       "ticker": "TOTS3",
       "name": "TOTVS S.A.",
-      "price": 37.53,
-      "changePercent": 6.17
+      "price": 37.98,
+      "changePercent": 3.15
+    },
+    {
+      "ticker": "CSAN3",
+      "name": "COSAN S.A.",
+      "price": 5.03,
+      "changePercent": -1.37
     },
     {
       "ticker": "HYPE3",
       "name": "HYPERA S.A.",
-      "price": 27.38,
-      "changePercent": 8.82
+      "price": 27.33,
+      "changePercent": 1.41
     },
     {
       "ticker": "PASS3",
       "name": "COMPASS GAS E ENERGIA S.A.",
-      "price": 25.79,
-      "changePercent": 8.22
+      "price": 25.97,
+      "changePercent": 2.45
+    },
+    {
+      "ticker": "ASAI3",
+      "name": "SENDAS DISTRIBUIDORA S.A.",
+      "price": 12.72,
+      "changePercent": -2
     },
     {
       "ticker": "CGAS5",
@@ -362,70 +374,82 @@
       "changePercent": 0.8
     },
     {
-      "ticker": "CSAN3",
-      "name": "COSAN S.A.",
-      "price": 5.09,
-      "changePercent": 23.54
-    },
-    {
       "ticker": "ALOS3",
       "name": "ALLOS S.A",
-      "price": 33.69,
-      "changePercent": 10.42
-    },
-    {
-      "ticker": "ASAI3",
-      "name": "SENDAS DISTRIBUIDORA S.A.",
-      "price": 13.12,
-      "changePercent": 17.67
-    },
-    {
-      "ticker": "GOAU4",
-      "name": "METALURGICA GERDAU S.A.",
-      "price": 11.87,
-      "changePercent": 1.02
-    },
-    {
-      "ticker": "GOAU3",
-      "name": "METALURGICA GERDAU S.A.",
-      "price": 10.51,
-      "changePercent": 0.86
-    },
-    {
-      "ticker": "TAEE4",
-      "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
-      "price": 14.85,
-      "changePercent": 3.85
-    },
-    {
-      "ticker": "TAEE3",
-      "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
-      "price": 14.54,
-      "changePercent": 3.64
+      "price": 34.18,
+      "changePercent": 3.39
     },
     {
       "ticker": "AURE3",
       "name": "AUREN ENERGIA S.A.",
-      "price": 15.78,
-      "changePercent": 14.18
+      "price": 15.43,
+      "changePercent": -0.71
+    },
+    {
+      "ticker": "TAEE4",
+      "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+      "price": 14.66,
+      "changePercent": -0.27
+    },
+    {
+      "ticker": "TAEE3",
+      "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+      "price": 14.38,
+      "changePercent": -0.07
+    },
+    {
+      "ticker": "GOAU4",
+      "name": "METALURGICA GERDAU S.A.",
+      "price": 11.61,
+      "changePercent": -1.44
+    },
+    {
+      "ticker": "GOAU3",
+      "name": "METALURGICA GERDAU S.A.",
+      "price": 10.21,
+      "changePercent": -0.78
+    },
+    {
+      "ticker": "CYRE3",
+      "name": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART",
+      "price": 34.14,
+      "changePercent": 3.02
+    },
+    {
+      "ticker": "CYRE4",
+      "name": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART",
+      "price": 32.15,
+      "changePercent": 1.26
     },
     {
       "ticker": "REDE3",
       "name": "REDE ENERGIA PARTICIPAÇÕES S.A.",
-      "price": 5.53,
+      "price": 5.4,
+      "changePercent": -2.35
+    },
+    {
+      "ticker": "LREN3",
+      "name": "LOJAS RENNER S.A.",
+      "price": 13.82,
       "changePercent": 1.84
     },
     {
       "ticker": "FLRY3",
       "name": "FLEURY S.A.",
-      "price": 24.42,
+      "price": 25.23,
       "changePercent": 3.91
     },
     {
-      "ticker": "MRSA6B",
-      "name": "MRS LOGISTICA S.A.",
-      "price": 34.5,
-      "changePercent": -1.12
+      "ticker": "SMFT3",
+      "name": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.",
+      "price": 21.17,
+      "changePercent": 1.24
+    },
+    {
+      "ticker": "EQPA3",
+      "name": "EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A.",
+      "price": 5.61,
+      "changePercent": -3.44
     },
     {
       "ticker": "MRSA3B",
@@ -434,118 +458,118 @@
       "changePercent": -0.26
     },
     {
-      "ticker": "EQPA3",
-      "name": "EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A.",
-      "price": 5.81,
-      "changePercent": 4.12
-    },
-    {
-      "ticker": "CYRE3",
-      "name": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART",
-      "price": 33.97,
-      "changePercent": 21.36
-    },
-    {
-      "ticker": "CYRE4",
-      "name": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART",
-      "price": 32.09,
-      "changePercent": 21.09
-    },
-    {
-      "ticker": "LREN3",
-      "name": "LOJAS RENNER S.A.",
-      "price": 14.12,
-      "changePercent": 20.07
-    },
-    {
       "ticker": "GMAT3",
       "name": "GRUPO MATEUS S.A.",
-      "price": 5.56,
-      "changePercent": 12.55
-    },
-    {
-      "ticker": "BNBR3",
-      "name": "BCO NORDESTE DO BRASIL S.A.",
-      "price": 114,
-      "changePercent": 1.79
+      "price": 5.45,
+      "changePercent": 3.02
     },
     {
       "ticker": "ALUP4",
       "name": "ALUPAR INVESTIMENTO S/A",
-      "price": 11.62,
-      "changePercent": 7.1
+      "price": 11.78,
+      "changePercent": 1.64
     },
     {
       "ticker": "ALUP3",
       "name": "ALUPAR INVESTIMENTO S/A",
-      "price": 12.98,
-      "changePercent": 10.47
-    },
-    {
-      "ticker": "SMFT3",
-      "name": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.",
-      "price": 20.76,
-      "changePercent": 17.75
+      "price": 13.36,
+      "changePercent": 2.93
     },
     {
       "ticker": "SAPR4",
       "name": "CIA SANEAMENTO DO PARANA - SANEPAR",
-      "price": 7.47,
-      "changePercent": 8.42
+      "price": 7.38,
+      "changePercent": 1.1
     },
     {
       "ticker": "SAPR3",
       "name": "CIA SANEAMENTO DO PARANA - SANEPAR",
-      "price": 8.88,
-      "changePercent": 17.31
-    },
-    {
-      "ticker": "NATU3",
-      "name": "NATURA COSMETICOS S.A.",
-      "price": 7.83,
-      "changePercent": 5.1
-    },
-    {
-      "ticker": "MULT3",
-      "name": "MULTIPLAN - EMPREEND IMOBILIARIOS S.A.",
-      "price": 36.65,
-      "changePercent": 11.16
-    },
-    {
-      "ticker": "ORVR3",
-      "name": "ORIZON VALORIZACAO DE RESIDUOS S.A.",
-      "price": 20.44,
-      "changePercent": 14.51
+      "price": 8.66,
+      "changePercent": -0.57
     },
     {
       "ticker": "GGPS3",
       "name": "GPS PARTICIPACOES E EMPREENDIMENTOS S.A.",
-      "price": 15.41,
-      "changePercent": 20.48
+      "price": 15.45,
+      "changePercent": 0.98
+    },
+    {
+      "ticker": "BNBR3",
+      "name": "BCO NORDESTE DO BRASIL S.A.",
+      "price": 113,
+      "changePercent": -0.88
+    },
+    {
+      "ticker": "ORVR3",
+      "name": "ORIZON VALORIZACAO DE RESIDUOS S.A.",
+      "price": 20.55,
+      "changePercent": 2.75
+    },
+    {
+      "ticker": "MULT3",
+      "name": "MULTIPLAN - EMPREEND IMOBILIARIOS S.A.",
+      "price": 37.59,
+      "changePercent": 3.87
+    },
+    {
+      "ticker": "NATU3",
+      "name": "NATURA COSMETICOS S.A.",
+      "price": 8.01,
+      "changePercent": 1.39
     },
     {
       "ticker": "ALPA4",
       "name": "ALPARGATAS S.A.",
-      "price": 15.87,
-      "changePercent": 4.61
+      "price": 15.94,
+      "changePercent": 0.57
     },
     {
       "ticker": "ALPA3",
       "name": "ALPARGATAS S.A.",
-      "price": 11.52,
-      "changePercent": 1.23
+      "price": 11.61,
+      "changePercent": -1.61
+    },
+    {
+      "ticker": "CURY3",
+      "name": "CURY CONSTRUTORA E INCORPORADORA S.A.",
+      "price": 30.17,
+      "changePercent": 0.43
+    },
+    {
+      "ticker": "EKTR4",
+      "name": "ELEKTRO REDES S.A.",
+      "price": 38.94,
+      "changePercent": 2.47
+    },
+    {
+      "ticker": "IGTI3",
+      "name": "IGUATEMI S.A.",
+      "price": 3.75,
+      "changePercent": 0.54
+    },
+    {
+      "ticker": "IGTI4",
+      "name": "IGUATEMI S.A.",
+      "price": 13.8,
+      "changePercent": -0.79
+    },
+    {
+      "ticker": "BRAV3",
+      "name": "BRAVA ENERGIA S.A.",
+      "price": 19.31,
+      "changePercent": 1.1
     },
     {
       "ticker": "USIM5",
       "name": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS",
-      "price": 7.52,
-      "changePercent": 0.53
+      "price": 7.35,
+      "changePercent": -1.47
     },
     {
       "ticker": "USIM3",
       "name": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS",
-      "price": 7.08,
-      "changePercent": 0.85
+      "price": 6.94,
+      "changePercent": -0.14
     },
     {
       "ticker": "USIM6",
@@ -554,52 +578,34 @@
       "changePercent": 0
     },
     {
-      "ticker": "BRAV3",
-      "name": "BRAVA ENERGIA S.A.",
-      "price": 19.3,
-      "changePercent": 2.12
+      "ticker": "JHSF3",
+      "name": "JHSF PARTICIPACOES S.A.",
+      "price": 12.97,
+      "changePercent": 2.13
     },
     {
-      "ticker": "CURY3",
-      "name": "CURY CONSTRUTORA E INCORPORADORA S.A.",
-      "price": 30.81,
-      "changePercent": 9.53
+      "ticker": "ECOR3",
+      "name": "ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A.",
+      "price": 12.78,
+      "changePercent": 3.65
     },
     {
-      "ticker": "EKTR4",
-      "name": "ELEKTRO REDES S.A.",
-      "price": 38.98,
-      "changePercent": 2.58
+      "ticker": "CSNA3",
+      "name": "CIA SIDERURGICA NACIONAL",
+      "price": 6.4,
+      "changePercent": -0.47
     },
     {
       "ticker": "SLCE3",
       "name": "SLC AGRICOLA S.A.",
-      "price": 17.16,
-      "changePercent": -0.23
-    },
-    {
-      "ticker": "ENMT4",
-      "name": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A",
-      "price": 37.57,
-      "changePercent": -1.93
-    },
-    {
-      "ticker": "ENMT3",
-      "name": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A",
-      "price": 37.32,
-      "changePercent": -0.93
-    },
-    {
-      "ticker": "JHSF3",
-      "name": "JHSF PARTICIPACOES S.A.",
-      "price": 12.94,
-      "changePercent": 7.39
+      "price": 17.26,
+      "changePercent": 2.01
     },
     {
       "ticker": "CEEB3",
       "name": "CIA ELETRICIDADE EST. DA BAHIA - COELBA",
-      "price": 47.4,
-      "changePercent": 2.05
+      "price": 47.39,
+      "changePercent": -0.02
     },
     {
       "ticker": "CEEB5",
@@ -608,52 +614,70 @@
       "changePercent": -11.11
     },
     {
-      "ticker": "CSNA3",
-      "name": "CIA SIDERURGICA NACIONAL",
-      "price": 6.46,
-      "changePercent": 4.7
+      "ticker": "ENMT4",
+      "name": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A",
+      "price": 37.99,
+      "changePercent": -0.84
     },
     {
-      "ticker": "IGTI3",
-      "name": "IGUATEMI S.A.",
-      "price": 3.72,
-      "changePercent": 8.77
-    },
-    {
-      "ticker": "IGTI4",
-      "name": "IGUATEMI S.A.",
-      "price": 13.91,
-      "changePercent": 12.36
+      "ticker": "ENMT3",
+      "name": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A",
+      "price": 37.32,
+      "changePercent": -0.93
     },
     {
       "ticker": "BRAP4",
       "name": "BRADESPAR S.A.",
-      "price": 21.29,
-      "changePercent": 2.55
+      "price": 21.19,
+      "changePercent": 0
     },
     {
       "ticker": "BRAP3",
       "name": "BRADESPAR S.A.",
-      "price": 18.57,
-      "changePercent": 2.43
+      "price": 18.47,
+      "changePercent": 0.38
     },
     {
       "ticker": "CBAV3",
       "name": "COMPANHIA BRASILEIRA DE ALUMÍNIO",
-      "price": 11.23,
-      "changePercent": -0.09
+      "price": 11.22,
+      "changePercent": -0.62
+    },
+    {
+      "ticker": "ABCB4",
+      "name": "BCO ABC BRASIL S.A.",
+      "price": 28.71,
+      "changePercent": 1.66
+    },
+    {
+      "ticker": "ABCB10",
+      "name": "BCO ABC BRASIL S.A.",
+      "price": 28.01,
+      "changePercent": -0.36
+    },
+    {
+      "ticker": "BMEB4",
+      "name": "BCO MERCANTIL DO BRASIL S.A.",
+      "price": 69.28,
+      "changePercent": 3.81
+    },
+    {
+      "ticker": "BMEB3",
+      "name": "BCO MERCANTIL DO BRASIL S.A.",
+      "price": 55.39,
+      "changePercent": 0.71
     },
     {
       "ticker": "BRSR6",
       "name": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-      "price": 17.1,
-      "changePercent": 7.41
+      "price": 17.13,
+      "changePercent": 1.54
     },
     {
       "ticker": "BRSR3",
       "name": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-      "price": 18.54,
-      "changePercent": 1.7
+      "price": 18.67,
+      "changePercent": 1.58
     },
     {
       "ticker": "BRSR5",
@@ -662,106 +686,64 @@
       "changePercent": 12.37
     },
     {
-      "ticker": "ECOR3",
-      "name": "ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A.",
-      "price": 12.84,
-      "changePercent": 29.83
+      "ticker": "SIMH3",
+      "name": "SIMPAR S.A.",
+      "price": 13.72,
+      "changePercent": 9.41
     },
     {
       "ticker": "AZUL3",
       "name": "AZUL S.A.",
-      "price": 19.17,
-      "changePercent": 3.57
+      "price": 19.18,
+      "changePercent": -0.16
     },
     {
       "ticker": "AZUL97",
       "name": "AZUL S.A.",
       "price": 5.02,
-      "changePercent": 25.5
+      "changePercent": -8.56
     },
     {
       "ticker": "AZUL99",
       "name": "AZUL S.A.",
       "price": 5,
-      "changePercent": 12.36
+      "changePercent": -2.15
     },
     {
       "ticker": "AZUL98",
       "name": "AZUL S.A.",
       "price": 5.95,
-      "changePercent": -16.2
-    },
-    {
-      "ticker": "ABCB4",
-      "name": "BCO ABC BRASIL S.A.",
-      "price": 28.67,
-      "changePercent": 9.64
-    },
-    {
-      "ticker": "ABCB10",
-      "name": "BCO ABC BRASIL S.A.",
-      "price": 28.11,
-      "changePercent": 8.41
-    },
-    {
-      "ticker": "BMEB4",
-      "name": "BCO MERCANTIL DO BRASIL S.A.",
-      "price": 66.82,
-      "changePercent": 9.68
-    },
-    {
-      "ticker": "BMEB3",
-      "name": "BCO MERCANTIL DO BRASIL S.A.",
-      "price": 54.9,
-      "changePercent": 8.09
+      "changePercent": 0
     },
     {
       "ticker": "FRAS3",
       "name": "FRASLE MOBILITY S.A.",
-      "price": 25.43,
-      "changePercent": 9.66
+      "price": 25.72,
+      "changePercent": 1.86
     },
     {
-      "ticker": "UNIP6",
-      "name": "UNIPAR CARBOCLORO S.A.",
-      "price": 57.99,
-      "changePercent": 1.7
+      "ticker": "VAMO3",
+      "name": "VAMOS LOCAÇÃO DE CAMINHÕES. MÁQUINAS E EQUIP. S.A.",
+      "price": 5.98,
+      "changePercent": 4
     },
     {
-      "ticker": "UNIP3",
-      "name": "UNIPAR CARBOCLORO S.A.",
-      "price": 55.61,
-      "changePercent": 1.92
+      "ticker": "MGLU3",
+      "name": "MAGAZINE LUIZA S.A.",
+      "price": 9.57,
+      "changePercent": 1.27
     },
     {
-      "ticker": "UNIP5",
-      "name": "UNIPAR CARBOCLORO S.A.",
-      "price": 58,
-      "changePercent": 0.03
-    },
-    {
-      "ticker": "SMTO3",
-      "name": "SAO MARTINHO S.A.",
-      "price": 20.03,
-      "changePercent": 3.57
-    },
-    {
-      "ticker": "SIMH3",
-      "name": "SIMPAR S.A.",
-      "price": 12.74,
-      "changePercent": 17.96
-    },
-    {
-      "ticker": "LIGT3",
-      "name": "LIGHT S.A.",
-      "price": 3.99,
-      "changePercent": 5.84
+      "ticker": "VIVA3",
+      "name": "VIVARA PARTICIPAÇOES S.A",
+      "price": 28.1,
+      "changePercent": 2.41
     },
     {
       "ticker": "CLSC4",
       "name": "CENTRAIS ELET DE SANTA CATARINA S.A.",
-      "price": 181.1,
-      "changePercent": 9.83
+      "price": 181.49,
+      "changePercent": 0.83
     },
     {
       "ticker": "CLSC3",
@@ -770,100 +752,100 @@
       "changePercent": 5.6
     },
     {
-      "ticker": "VIVA3",
-      "name": "VIVARA PARTICIPAÇOES S.A",
-      "price": 28.26,
-      "changePercent": 13.04
+      "ticker": "SMTO3",
+      "name": "SAO MARTINHO S.A.",
+      "price": 19.86,
+      "changePercent": -0.05
+    },
+    {
+      "ticker": "UNIP6",
+      "name": "UNIPAR CARBOCLORO S.A.",
+      "price": 57.83,
+      "changePercent": 0.28
+    },
+    {
+      "ticker": "UNIP3",
+      "name": "UNIPAR CARBOCLORO S.A.",
+      "price": 55.69,
+      "changePercent": 0.32
+    },
+    {
+      "ticker": "UNIP5",
+      "name": "UNIPAR CARBOCLORO S.A.",
+      "price": 58.16,
+      "changePercent": 0.28
+    },
+    {
+      "ticker": "LIGT3",
+      "name": "LIGHT S.A.",
+      "price": 3.9,
+      "changePercent": -1.52
     },
     {
       "ticker": "MDIA3",
       "name": "M.DIAS BRANCO S.A. IND COM DE ALIMENTOS",
-      "price": 18.7,
-      "changePercent": 9.74
-    },
-    {
-      "ticker": "VAMO3",
-      "name": "VAMOS LOCAÇÃO DE CAMINHÕES. MÁQUINAS E EQUIP. S.A.",
-      "price": 5.74,
-      "changePercent": 21.1
+      "price": 18.25,
+      "changePercent": -0.82
     },
     {
       "ticker": "DXCO3",
       "name": "DEXCO S.A.",
-      "price": 6.81,
-      "changePercent": 10.37
+      "price": 6.87,
+      "changePercent": 0.88
     },
     {
       "ticker": "DIRR3",
       "name": "DIRECIONAL ENGENHARIA S.A.",
       "price": 11.55,
-      "changePercent": 9.9
+      "changePercent": 1.76
     },
     {
       "ticker": "TTEN3",
       "name": "TRÊS TENTOS AGROINDUSTRIAL S/A",
-      "price": 11.69,
-      "changePercent": 8.04
+      "price": 11.64,
+      "changePercent": -0.43
     },
     {
-      "ticker": "MGLU3",
-      "name": "MAGAZINE LUIZA S.A.",
-      "price": 9.51,
-      "changePercent": 24.97
+      "ticker": "MOVI3",
+      "name": "MOVIDA PARTICIPACOES SA",
+      "price": 14.16,
+      "changePercent": 4.89
     },
     {
       "ticker": "POMO4",
       "name": "MARCOPOLO S.A.",
-      "price": 4.71,
-      "changePercent": 8.78
+      "price": 4.69,
+      "changePercent": 0.21
     },
     {
       "ticker": "POMO3",
       "name": "MARCOPOLO S.A.",
       "price": 4.32,
-      "changePercent": 6.4
+      "changePercent": 0
     },
     {
       "ticker": "INTB3",
       "name": "INTELBRAS S.A. IND DE TELEC ELETRONICA BRASILEIRA",
       "price": 17.31,
-      "changePercent": 8.32
+      "changePercent": 1.23
+    },
+    {
+      "ticker": "COGN3",
+      "name": "COGNA EDUCAÇÃO S.A.",
+      "price": 2.83,
+      "changePercent": 5.2
     },
     {
       "ticker": "WHRL4",
       "name": "WHIRLPOOL S.A.",
       "price": 3.64,
-      "changePercent": 1.11
+      "changePercent": 0
     },
     {
       "ticker": "WHRL3",
       "name": "WHIRLPOOL S.A.",
-      "price": 3.5,
-      "changePercent": 4.79
-    },
-    {
-      "ticker": "IRBR3",
-      "name": "IRB - BRASIL RESSEGUROS S.A.",
-      "price": 64.01,
-      "changePercent": 1.09
-    },
-    {
-      "ticker": "COGN3",
-      "name": "COGNA EDUCAÇÃO S.A.",
-      "price": 2.73,
-      "changePercent": 12.35
-    },
-    {
-      "ticker": "SHUL4",
-      "name": "SCHULZ S.A.",
-      "price": 4.84,
-      "changePercent": 2.98
-    },
-    {
-      "ticker": "DASA3",
-      "name": "DIAGNOSTICOS DA AMERICA S.A.",
-      "price": 4.21,
-      "changePercent": 6.58
+      "price": 3.59,
+      "changePercent": 2.57
     },
     {
       "ticker": "EQMA3B",
@@ -872,52 +854,88 @@
       "changePercent": 9.95
     },
     {
+      "ticker": "SHUL4",
+      "name": "SCHULZ S.A.",
+      "price": 4.88,
+      "changePercent": 2.52
+    },
+    {
       "ticker": "HBSA3",
       "name": "HIDROVIAS DO BRASIL S.A.",
-      "price": 3.83,
-      "changePercent": 10.06
+      "price": 3.98,
+      "changePercent": 3.65
+    },
+    {
+      "ticker": "IRBR3",
+      "name": "IRB - BRASIL RESSEGUROS S.A.",
+      "price": 65.58,
+      "changePercent": 2.36
+    },
+    {
+      "ticker": "DASA3",
+      "name": "DIAGNOSTICOS DA AMERICA S.A.",
+      "price": 4.32,
+      "changePercent": 5.62
     },
     {
       "ticker": "LEVE3",
       "name": "MAHLE-METAL LEVE S.A.",
-      "price": 36.52,
-      "changePercent": 6.07
-    },
-    {
-      "ticker": "MOVI3",
-      "name": "MOVIDA PARTICIPACOES SA",
-      "price": 13.56,
-      "changePercent": 24.98
-    },
-    {
-      "ticker": "VULC3",
-      "name": "VULCABRAS S.A.",
-      "price": 14.9,
-      "changePercent": 7.43
-    },
-    {
-      "ticker": "OPCT3",
-      "name": "OCEANPACT SERVICOS MARITIMOS S.A.",
-      "price": 9.27,
-      "changePercent": 5.22
-    },
-    {
-      "ticker": "AZZA3",
-      "name": "AZZAS 2154 S.A.",
-      "price": 22.23,
-      "changePercent": 13.77
+      "price": 36.4,
+      "changePercent": 1
     },
     {
       "ticker": "EZTC3",
       "name": "EZ TEC EMPREEND. E PARTICIPACOES S.A.",
-      "price": 17.23,
-      "changePercent": 18.01
+      "price": 17.56,
+      "changePercent": 2.87
+    },
+    {
+      "ticker": "VULC3",
+      "name": "VULCABRAS S.A.",
+      "price": 14.92,
+      "changePercent": 1.7
+    },
+    {
+      "ticker": "AZZA3",
+      "name": "AZZAS 2154 S.A.",
+      "price": 23.09,
+      "changePercent": 4.15
+    },
+    {
+      "ticker": "HAPV3",
+      "name": "HAPVIDA PARTICIPACOES E INVESTIMENTOS SA",
+      "price": 9.04,
+      "changePercent": 3.2
+    },
+    {
+      "ticker": "OPCT3",
+      "name": "OCEANPACT SERVICOS MARITIMOS S.A.",
+      "price": 9.52,
+      "changePercent": 3.82
+    },
+    {
+      "ticker": "RIAA3",
+      "name": "GUARARAPES CONFECCOES S.A.",
+      "price": 8.84,
+      "changePercent": 2.67
+    },
+    {
+      "ticker": "BEEF3",
+      "name": "MINERVA S.A.",
+      "price": 4.4,
+      "changePercent": 5.01
+    },
+    {
+      "ticker": "AUAU3",
+      "name": "PET CENTER COMERCIO  E PARTICIPACOES S.A.",
+      "price": 4.78,
+      "changePercent": 0.63
     },
     {
       "ticker": "BAZA3",
       "name": "BCO AMAZONIA S.A.",
-      "price": 71,
-      "changePercent": 1.78
+      "price": 76.93,
+      "changePercent": 8.35
     },
     {
       "ticker": "CBEE3",
@@ -926,52 +944,58 @@
       "changePercent": 0
     },
     {
-      "ticker": "HAPV3",
-      "name": "HAPVIDA PARTICIPACOES E INVESTIMENTOS SA",
-      "price": 8.84,
-      "changePercent": 13.33
-    },
-    {
-      "ticker": "BEEF3",
-      "name": "MINERVA S.A.",
-      "price": 4.21,
-      "changePercent": 8.51
-    },
-    {
-      "ticker": "RIAA3",
-      "name": "GUARARAPES CONFECCOES S.A.",
-      "price": 8.82,
-      "changePercent": 16.51
-    },
-    {
-      "ticker": "AUAU3",
-      "name": "PET CENTER COMERCIO  E PARTICIPACOES S.A.",
-      "price": 4.85,
-      "changePercent": 8.99
-    },
-    {
-      "ticker": "MILS3",
-      "name": "MILLS LOCAÇÃO. SERVIÇOS E LOGÍSTICA S.A",
-      "price": 16.04,
-      "changePercent": 0.06
+      "ticker": "CEAB3",
+      "name": "CEA MODAS S.A.",
+      "price": 12.53,
+      "changePercent": 1.62
     },
     {
       "ticker": "GRND3",
       "name": "GRENDENE S.A.",
-      "price": 4.21,
-      "changePercent": 4.47
+      "price": 4.24,
+      "changePercent": 1.92
     },
     {
       "ticker": "RAIZ4",
       "name": "RAIZEN S.A.",
-      "price": 0.35,
+      "price": 0.36,
       "changePercent": 0
     },
     {
-      "ticker": "GEPA4",
-      "name": "RIO PARANAPANEMA ENERGIA S.A.",
-      "price": 36.06,
-      "changePercent": -2.46
+      "ticker": "MILS3",
+      "name": "MILLS LOCAÇÃO. SERVIÇOS E LOGÍSTICA S.A",
+      "price": 16.06,
+      "changePercent": -0.06
+    },
+    {
+      "ticker": "MRVE3",
+      "name": "MRV ENGENHARIA E PARTICIPACOES S.A.",
+      "price": 6.37,
+      "changePercent": 1.59
+    },
+    {
+      "ticker": "PINE4",
+      "name": "BCO PINE S.A.",
+      "price": 14.07,
+      "changePercent": 2.25
+    },
+    {
+      "ticker": "PINE3",
+      "name": "BCO PINE S.A.",
+      "price": 12.6,
+      "changePercent": -3.08
+    },
+    {
+      "ticker": "RECV3",
+      "name": "PETRORECÔNCAVO S.A.",
+      "price": 11.66,
+      "changePercent": 0.52
+    },
+    {
+      "ticker": "TEND3",
+      "name": "CONSTRUTORA TENDA S.A.",
+      "price": 28.82,
+      "changePercent": -1.47
     },
     {
       "ticker": "GEPA3",
@@ -980,52 +1004,28 @@
       "changePercent": 2.41
     },
     {
-      "ticker": "RECV3",
-      "name": "PETRORECÔNCAVO S.A.",
-      "price": 11.65,
-      "changePercent": 4.02
+      "ticker": "GEPA4",
+      "name": "RIO PARANAPANEMA ENERGIA S.A.",
+      "price": 36.23,
+      "changePercent": 0.47
     },
     {
-      "ticker": "TEND3",
-      "name": "CONSTRUTORA TENDA S.A.",
-      "price": 29.52,
-      "changePercent": 4.98
-    },
-    {
-      "ticker": "BEES3",
-      "name": "BANESTES S.A. - BCO EST ESPIRITO SANTO",
-      "price": 9.32,
-      "changePercent": 0.98
-    },
-    {
-      "ticker": "BEES4",
-      "name": "BANESTES S.A. - BCO EST ESPIRITO SANTO",
-      "price": 9.2,
-      "changePercent": 0.33
-    },
-    {
-      "ticker": "CEAB3",
-      "name": "CEA MODAS S.A.",
-      "price": 12.53,
-      "changePercent": 21.65
-    },
-    {
-      "ticker": "MRVE3",
-      "name": "MRV ENGENHARIA E PARTICIPACOES S.A.",
-      "price": 6.42,
-      "changePercent": 14.03
+      "ticker": "PGMN3",
+      "name": "EMPREENDIMENTOS PAGUE MENOS S.A.",
+      "price": 4.69,
+      "changePercent": 2.18
     },
     {
       "ticker": "BRKM5",
       "name": "BRASKEM S.A.",
-      "price": 4.15,
-      "changePercent": 2.98
+      "price": 4.19,
+      "changePercent": 2.44
     },
     {
       "ticker": "BRKM3",
       "name": "BRASKEM S.A.",
-      "price": 4.07,
-      "changePercent": 3.56
+      "price": 4.12,
+      "changePercent": 1.48
     },
     {
       "ticker": "BRKM6",
@@ -1034,166 +1034,160 @@
       "changePercent": -13.21
     },
     {
-      "ticker": "PINE4",
-      "name": "BCO PINE S.A.",
-      "price": 14.06,
-      "changePercent": 11.32
+      "ticker": "YDUQ3",
+      "name": "YDUQS PARTICIPACOES S.A.",
+      "price": 12.9,
+      "changePercent": 3.53
     },
     {
-      "ticker": "PINE3",
-      "name": "BCO PINE S.A.",
-      "price": 12.72,
-      "changePercent": 10.9
+      "ticker": "BEES3",
+      "name": "BANESTES S.A. - BCO EST ESPIRITO SANTO",
+      "price": 9.39,
+      "changePercent": 0.75
     },
     {
-      "ticker": "EMAE4",
-      "name": "EMAE - EMPRESA METROP.AGUAS ENERGIA S.A.",
-      "price": 39.25,
-      "changePercent": 6.98
+      "ticker": "BEES4",
+      "name": "BANESTES S.A. - BCO EST ESPIRITO SANTO",
+      "price": 9.23,
+      "changePercent": 0.22
     },
     {
       "ticker": "LOGN3",
       "name": "LOG-IN LOGISTICA INTERMODAL S.A.",
-      "price": 29.03,
-      "changePercent": 3.68
+      "price": 29.3,
+      "changePercent": 0.69
     },
     {
-      "ticker": "YDUQ3",
-      "name": "YDUQS PARTICIPACOES S.A.",
-      "price": 12.47,
-      "changePercent": 12.55
+      "ticker": "EMAE4",
+      "name": "EMAE - EMPRESA METROP.AGUAS ENERGIA S.A.",
+      "price": 39.99,
+      "changePercent": 2.28
     },
     {
       "ticker": "MDNE3",
       "name": "MOURA DUBEUX ENGENHARIA S/A",
-      "price": 29.66,
-      "changePercent": 14.74
-    },
-    {
-      "ticker": "PGMN3",
-      "name": "EMPREENDIMENTOS PAGUE MENOS S.A.",
-      "price": 4.65,
-      "changePercent": 25.68
-    },
-    {
-      "ticker": "COCE5",
-      "name": "CIA ENERGETICA DO CEARA - COELCE",
-      "price": 35.05,
-      "changePercent": 5.41
-    },
-    {
-      "ticker": "COCE3",
-      "name": "CIA ENERGETICA DO CEARA - COELCE",
-      "price": 31.6,
-      "changePercent": 7.45
+      "price": 30.11,
+      "changePercent": 2.55
     },
     {
       "ticker": "TGMA3",
       "name": "TEGMA GESTAO LOGISTICA S.A.",
-      "price": 42.82,
-      "changePercent": 8.41
+      "price": 42.81,
+      "changePercent": -0.4
+    },
+    {
+      "ticker": "COCE5",
+      "name": "CIA ENERGETICA DO CEARA - COELCE",
+      "price": 35.7,
+      "changePercent": -0.83
+    },
+    {
+      "ticker": "COCE3",
+      "name": "CIA ENERGETICA DO CEARA - COELCE",
+      "price": 32,
+      "changePercent": 8.81
     },
     {
       "ticker": "BLAU3",
       "name": "BLAU FARMACÊUTICA S.A.",
-      "price": 11.92,
-      "changePercent": 10.17
-    },
-    {
-      "ticker": "FESA4",
-      "name": "CIA FERRO LIGAS DA BAHIA - FERBASA",
-      "price": 5.86,
-      "changePercent": 1.91
-    },
-    {
-      "ticker": "FESA3",
-      "name": "CIA FERRO LIGAS DA BAHIA - FERBASA",
-      "price": 10.92,
-      "changePercent": 11.54
+      "price": 11.88,
+      "changePercent": 1.71
     },
     {
       "ticker": "JSLG3",
       "name": "JSL S.A.",
-      "price": 9.8,
-      "changePercent": 16.81
+      "price": 10,
+      "changePercent": 5.04
+    },
+    {
+      "ticker": "FESA4",
+      "name": "CIA FERRO LIGAS DA BAHIA - FERBASA",
+      "price": 5.87,
+      "changePercent": 1.73
+    },
+    {
+      "ticker": "FESA3",
+      "name": "CIA FERRO LIGAS DA BAHIA - FERBASA",
+      "price": 10.1,
+      "changePercent": -7.51
     },
     {
       "ticker": "BMOB3",
       "name": "BEMOBI MOBILE TECH S.A.",
-      "price": 30.53,
-      "changePercent": 7.73
-    },
-    {
-      "ticker": "VTRU3",
-      "name": "VITRU EDUCAÇÃO S.A",
-      "price": 16.61,
-      "changePercent": 6.13
-    },
-    {
-      "ticker": "DESK3",
-      "name": "DESKTOP S.A.",
-      "price": 19.15,
-      "changePercent": -0.67
+      "price": 30.37,
+      "changePercent": -0.52
     },
     {
       "ticker": "LAVV3",
       "name": "LAVVI EMPREENDIMENTOS IMOBILIÁRIOS S.A.",
-      "price": 13.16,
-      "changePercent": 14.34
-    },
-    {
-      "ticker": "LOGG3",
-      "name": "LOG COMMERCIAL PROPERTIES",
-      "price": 27.65,
-      "changePercent": 8.05
-    },
-    {
-      "ticker": "RAPT4",
-      "name": "RANDONCORP S.A.",
-      "price": 6.27,
-      "changePercent": 14.63
-    },
-    {
-      "ticker": "RAPT3",
-      "name": "RANDONCORP S.A.",
-      "price": 9.21,
-      "changePercent": 6.97
-    },
-    {
-      "ticker": "TUPY3",
-      "name": "TUPY S.A.",
-      "price": 16.9,
-      "changePercent": 1.26
+      "price": 13.17,
+      "changePercent": 1.78
     },
     {
       "ticker": "LWSA3",
       "name": "LWSA S.A.",
-      "price": 4.58,
-      "changePercent": 14.21
+      "price": 4.94,
+      "changePercent": 9.53
     },
     {
-      "ticker": "FIQE3",
-      "name": "UNIFIQUE TELECOMUNICAÇÕES S.A.",
-      "price": 5.66,
+      "ticker": "RAPT4",
+      "name": "RANDONCORP S.A.",
+      "price": 6.44,
       "changePercent": 4.04
     },
     {
-      "ticker": "EUCA4",
-      "name": "EUCATEX S.A. INDUSTRIA E COMERCIO",
-      "price": 24.03,
-      "changePercent": 5.26
+      "ticker": "RAPT3",
+      "name": "RANDONCORP S.A.",
+      "price": 9.45,
+      "changePercent": 0.96
     },
     {
-      "ticker": "EUCA3",
-      "name": "EUCATEX S.A. INDUSTRIA E COMERCIO",
-      "price": 23.4,
-      "changePercent": 9.86
+      "ticker": "VTRU3",
+      "name": "VITRU EDUCAÇÃO S.A",
+      "price": 17.07,
+      "changePercent": 3.64
+    },
+    {
+      "ticker": "LOGG3",
+      "name": "LOG COMMERCIAL PROPERTIES",
+      "price": 28.05,
+      "changePercent": 3.2
+    },
+    {
+      "ticker": "SBFG3",
+      "name": "GRUPO SBF SA",
+      "price": 10.25,
+      "changePercent": 1.49
+    },
+    {
+      "ticker": "TUPY3",
+      "name": "TUPY S.A.",
+      "price": 17.73,
+      "changePercent": 4.79
+    },
+    {
+      "ticker": "DESK3",
+      "name": "DESKTOP S.A.",
+      "price": 19.33,
+      "changePercent": 0.42
     },
     {
       "ticker": "TFCO4",
       "name": "TRACK & FIELD CO S.A.",
-      "price": 14.8,
-      "changePercent": 10.45
+      "price": 15.17,
+      "changePercent": 2.09
+    },
+    {
+      "ticker": "CSED3",
+      "name": "CRUZEIRO DO SUL EDUCACIONAL S.A.",
+      "price": 6.55,
+      "changePercent": 7.03
+    },
+    {
+      "ticker": "FIQE3",
+      "name": "UNIFIQUE TELECOMUNICAÇÕES S.A.",
+      "price": 5.67,
+      "changePercent": 1.98
     }
   ]
 }
